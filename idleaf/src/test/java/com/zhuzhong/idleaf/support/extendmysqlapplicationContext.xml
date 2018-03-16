@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd">
+
+
+    <bean id="testDataSource"
+          class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/test"/>
+        <property name="username" value="root"/>
+        <property name="password" value="mysql"/>
+    </bean>
+
+
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="testDataSource"/>
+    </bean>
+
+
+    <bean id="transactionTemplate"
+          class="org.springframework.transaction.support.TransactionTemplate">
+        <property name="transactionManager" ref="transactionManager"/>
+        <!--ISOLATION_DEFAULT 表示由使用的数据库决定 -->
+        <property name="isolationLevelName" value="ISOLATION_DEFAULT"/>
+        <property name="propagationBehaviorName" value="PROPAGATION_REQUIRED"/>
+        <!-- <property name="timeout" value="30"/> -->
+    </bean>
+
+
+    <bean id="extendMysqlMaxValueIncrementer" abstract="true"
+          class="com.zhuzhong.idleaf.support.ExtendMySQLMaxValueIncrementer">
+        <property name="dataSource" ref="testDataSource"/>
+        <property name="asynLoadingSegment" value="true"></property>
+        <property name="incrementerName" value="id_segment"/>
+        <property name="columnName" value="max_id"/>
+        <property name="stepField" value="p_step"/>
+        <property name="bizField" value="biz_tag"></property>
+        <property name="lastUpdateTimeField" value="last_update_time"/>
+        <property name="updateTimeField" value="current_update_time"/>
+        <property name="paddingLength" value="6"></property>
+
+    </bean>
+
+    <bean id="orderIncrementer" parent="extendMysqlMaxValueIncrementer">
+        <property name="bizTag" value="order"/>
+    </bean>
+
+    <bean id="productNoIncrementer" parent="extendMysqlMaxValueIncrementer">
+        <property name="bizTag" value="productNo"/>
+    </bean>
+</beans>
