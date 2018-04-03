@@ -1,6 +1,8 @@
 package com.holddie.boot.jpa.controller;
 
+import com.holddie.boot.jpa.dao.PersonRepository;
 import com.holddie.boot.jpa.dao.UserRepository;
+import com.holddie.boot.jpa.dao.projection.NameOnlyDto;
 import com.holddie.boot.jpa.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,6 +10,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.Collection;
 
 /**
  * 用户控制
@@ -17,33 +21,19 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @date 2018/4/1 22:08
  */
 @Controller
-@RequestMapping(value = "/user")
-public class UserController {
+@RequestMapping(value = "/person")
+public class PersonController {
 
-    private final UserRepository userRepository;
+    private final PersonRepository personRepository;
 
     @Autowired
-    public UserController(UserRepository userRepository) {
-        this.userRepository = userRepository;
-    }
-
-    @GetMapping(value = "/add")
-    public void addUser(@RequestParam String name, @RequestParam String email){
-        User user = new User();
-        user.setName(name);
-        user.setEmail(email);
-        userRepository.save(user);
-    }
-
-    @GetMapping("/all")
-    @ResponseBody
-    public Iterable<User> getAllUsers(){
-        return userRepository.findAll();
+    public PersonController(PersonRepository personRepository) {
+        this.personRepository = personRepository;
     }
 
     @GetMapping("/lastname")
     @ResponseBody
-    public Iterable<User> getUsersByLastname(){
-        return userRepository.findAll();
+    public Collection<NameOnlyDto> getUsersByLastname(){
+        return personRepository.findByLastname("123", NameOnlyDto.class);
     }
 }
