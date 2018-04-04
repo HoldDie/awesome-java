@@ -24,6 +24,8 @@ public class UserController {
 
     @Autowired
     public UserController(UserRepository userRepository) {
+        Float a                  = 1.0f;
+        System.out.println();
         this.userRepository = userRepository;
     }
 

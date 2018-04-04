@@ -2,19 +2,25 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="common-tutorial" />
-        <module name="dynamic-configuration" />
+        <module name="dynamic" />
         <module name="idleaf" />
+        <module name="springboot-jpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common-tutorial" target="1.5" />
+      <module name="demo" target="1.8" />
+      <module name="dynamic" target="1.8" />
+      <module name="dynamic-conf" target="1.8" />
       <module name="dynamic-configuration" target="1.8" />
+      <module name="dynamicconf" target="1.5" />
       <module name="idleaf" target="1.8" />
+      <module name="springboot-jpa" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
