@@ -6,7 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/dynamic/dynamic.iml" filepath="$PROJECT_DIR$/dynamic/dynamic.iml" />
       <module fileurl="file://$PROJECT_DIR$/idleaf/idleaf.iml" filepath="$PROJECT_DIR$/idleaf/idleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-base/java-base.iml" filepath="$PROJECT_DIR$/java-base/java-base.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jpa/jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/niu-coder/niu-coder.iml" filepath="$PROJECT_DIR$/niu-coder/niu-coder.iml" />
     </modules>
   </component>
 </project>

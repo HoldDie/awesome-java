@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dynamic" />
         <module name="idleaf" />
+        <module name="jpa" />
         <module name="springboot-jpa" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="dynamic-configuration" target="1.8" />
       <module name="dynamicconf" target="1.5" />
       <module name="idleaf" target="1.8" />
+      <module name="jpa" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
     </bytecodeTargetLevel>
   </component>
