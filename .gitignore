@@ -32,3 +32,7 @@ hs_err_pid*
 
 /idleaf/target/
 /dynamic/.mvn/
+/.idea/
+/*.iml
+/out/
+/target/
