@@ -146,9 +146,9 @@
  
 
        栈内存的一个特点是数据共享，这样设计是为了减小内存消耗，前面定义了i=1，i和1都在栈内存内，如果再定义一个j=1，此时将j放入栈内存，然后查找栈内存中是否有1，如果有则j指向1。如果再给j赋值2，则在栈内存中查找是否有2，如果没有就在栈内存中放一个2，然后j指向2。也就是如果常量在栈内存中，就将变量指向该常量，如果没有就在该栈内存增加一个该常量，并将变量指向该常量。
-
+    
         [![img](http://static.oschina.net/uploads/img/201305/28181619_TJmL.jpg)](http://static.oschina.net/uploads/img/201305/28181619_TJmL.jpg)
-
+    
        如果j++，这时指向的变量并不会改变，而是在栈内寻找新的常量（比原来的常量大1），如果栈内存有则指向它，如果没有就在栈内存中加入此常量并将j指向它。这种基本类型之间比较大小和我们逻辑上判断大小是一致的。如定义i和j是都赋值1，则i==j结果为true。==用于判断两个变量指向的地址是否一样。i==j就是判断i指向的1和j指向的1是同一个吗？当然是了。对于直接赋值的字符串常量（如String s=“Hello World”；中的Hello World）也是存放在栈内存中，而new出来的字符串对象（即String对象）是存放在堆内存中。如果定义String s=“Hello World”和String w=“Hello World”，s==w吗？肯定是true，因为他们指向的是同一个Hello World。
 
  
@@ -634,7 +634,7 @@ java 正则表达式
 
 java 常识
 
-1. JDK5之后，J2SDK该名为 Java SE JDK，它是java开发编程的工具，提供了编译功能和圆形环境
+1. JDK5之后，J2SDK该名为 Java SE JDK，它是java开发编程的工具，提供了编译功能和运行环境
 2. appletviewer.exe 执行选项参数并没有jar选项
 3. appletviewwer（小程序浏览器），是一种执行HTML文件上的Java小程序类的java浏览器，就是用来解释java applet 应用程序的，不需要写main函数。
 
@@ -1188,4 +1188,34 @@ Java 提供事件处理模型：
 - 事件监控器（Event Listener）：负责监听事件源上发生的特定类型的时间，当时间到来的时候还必须负责处理相应的事件
 
 ------
+
+Panel 和 Applet 的默认布局管理器是 `FlowLayout` 
+
+Java 中导包的规则是：导包只可以导入当前层，不可以再导入包里面包中的类（只是当前层级，没有迭代的事）。
+
+TextField 对象的监听器有：MouseMotionListener、FocusListener、ActionListener。
+
+抽象类中可以由普通成员变量，接口中没有普通成员变量。
+
+抽象类和接口都可以有普通成员变量，抽象类中静态成员变量访问类型可以是任意类型，接口中只能是 `public static final`
+
+抽象类中可以有静态方法，接口不能有静态方法。
+
+抽象类中方法可以是 public、protected，接口方法只有 public
+
+
+
+------
+
+Thread、ThreadLocal、ThreadLocalMap 之间关系
+
+- ThreadLocal 类用来提供线程内部的局部变量，这种变量在多线程环境下访问（Set  和 Get 方法访问）能保证各个线程里的变量相对独立于其他线程内的变量。
+- ThreadLocal 实例通常来说都是 private static 类型，用于关联线程和线程上下文。
+- 对于多线程资源共享问题，同步机制采取了“以时间换空间”的方式，而ThreadLocal采用了“以空间换时间”的方式，每个线程都提供了一份变量，可以同时访问互不影响。
+- ThreadLocal 用户创建一个线程本地变量，在 Thread 中有一个成员变量 threadLocals，该变量的类型是 ThreadLocalMap，也就是一个 Map，它的键是 threadLocal，值为就是变量的副本。
+- 通过 ThreadLocal 的 get() 方法可以获取该线程变量的本地副本，在 get 方法之前要先 set，否则就要重写 `initialValue()` 方法。
+
+------
+
+`str+='  a'` 一句话就问你怕不怕，字符串怎么能这么写。
 
