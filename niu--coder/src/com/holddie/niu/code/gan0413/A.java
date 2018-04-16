@@ -1,4 +1,4 @@
-package holddie.niucoder.gan0413;
+package com.holddie.niu.code.gan0413;
 
 public class A {
     public static String staticStr = "A's static field";

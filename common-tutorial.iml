@@ -11,7 +11,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/niu-coder/src/com" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/niu-coder/src/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/errornote" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>

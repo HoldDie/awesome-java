@@ -1,4 +1,4 @@
-package holddie.niucoder;
+package com.holddie.niu.code;
 
 /**
  * @author yangze1

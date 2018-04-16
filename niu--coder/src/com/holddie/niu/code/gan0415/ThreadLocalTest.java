@@ -1,7 +1,4 @@
-package com.holddie.niucoder.gan0415;
-
-import org.apache.catalina.Session;
-import org.hibernate.HibernateException;
+package com.holddie.niu.code.gan0415;
 
 /**
  * @author yangze1

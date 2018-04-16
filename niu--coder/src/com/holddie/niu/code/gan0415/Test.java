@@ -1,4 +1,4 @@
-package com.holddie.niucoder.gan0415;
+package com.holddie.niu.code.gan0415;
 
 import java.awt.event.ContainerEvent;
 import java.io.IOException;

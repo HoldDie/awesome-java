@@ -1219,3 +1219,47 @@ Thread、ThreadLocal、ThreadLocalMap 之间关系
 
 `str+='  a'` 一句话就问你怕不怕，字符串怎么能这么写。
 
+------
+
+Java 顶层容器是指可以不能被其他容器包含，是容纳其他容器的容器组件。
+
+顶层容器包含 JApplet、JDialog、JFrame、JWindow 及其子类
+
+JFrame 中就可以以放 Jtree（树形组件）
+
+------
+
+Java 存根 stub 类可以简单理解为适配器模式，继承该类则不需要实现一个接口的全部方法。
+
+RMI 采用 stubs 和 skeletons 来进行远程对象 （remote object）通信。stub 充当远程对象的客户端代理，有着和远程对象相同的远程连接接口，远程对象的调用实际是通过调用该对象的客户端代理对象stub来完成的。
+
+每个远程对象都包含一个代理对象stub，当运行在本地java虚拟机上的程序调用运行在远程Java虚拟机上的对象方法时，它首先在本地创建该对象的代理对象stub，然后调用代理对象上匹配的方法，每个远程对象同时也包含一个skeleton对象，skeleton运行在远程对象所在的虚拟机上，接收来自stub对象的调用，这种方法符合等到程序要运行时将目标文件动态进行链接的思想。
+
+------
+
+方法名是否可以和类名相同
+
+对于多线程的 run 和 start 的理解
+
+------
+
+![img](pic/Java-Memory-Model.png)
+
+![img](pic/4446785_1505894661372_DEAFC5BE2684F4420A04EBC006C2B03B.png)
+
+对于状态描述
+
+![img](pic/3252049_1503481716783_5F2B3F671C6B7F8E2385061066EFCE0C)
+
+在try语句块或catch 语句块中执行到 System.exit(0) 直接退出程序。
+
+Java 一律采用Unicode 编码方式，每个字符无论中文还是英文字符都占用2个字节
+
+ResourceBundle 能够 依据local的不同，选择性的读取与local对应后缀的properties文件，已达到国际化的目的。
+
+Java 虚拟机中通常是用 UTF-16 的方式来保存一个字符。
+
+不同编码之间的转换 `String newUTF8Str = new String(oldGBKStr.getBytes("GBK"), "UTF8");`
+
+------
+

@@ -1,4 +1,4 @@
-package com.holddie.niucoder;
+package com.holddie.niu.code;
 
 /**
  * @author HoldDie
