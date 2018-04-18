@@ -1316,3 +1316,22 @@ finalize：方法名，Java技术允许使用 finalize() 方法在垃圾收集�
 
 ------
 
+声明为 static 的变量 无论是 public还是 private 都可以直接使用类名访问该参数。
+
+对象之间也可以直接使用 `==` 进行比较
+
+JVM 中垃圾回收分为  scanvenge gc  和 full gc，其中full gc 出发的条件有：老年代满、持久代满、System.gc、Minor GC。
+
+Java中 不允许单独的方法，过程或函数存在，需要隶属于某一类中。
+
+java语言中的方法属于对象的成员，而不是类（除静态方法）
+
+java 的赋值语句是有返回值的，赋什么值，就返回什么值
+
+java object 默认的基本方法中没有 copy 方法，含有如下方法：getClass、hashCode、equals、clone、toString、notify、notifyAll、wait、finalize
+
+```java
+ int a[]=null; a[0]=1;
+```
+
+将产生空指针一样，你敢信，根本不是什么数组越界异常
