@@ -8,16 +8,20 @@ package com.holddie.niu.code.gan0418;
  */
 public class TrueTest {
     public static void main(String[] args) {
-        Boolean flag = false;
-        if (flag = true) {
-            System.out.println(true);
-        } else {
-            System.out.println(false);
-        }
-
-        System.out.println(flag = false);
-
-        int a[]=null; a[0]=1;//将产生ArraylndexOutOfBoundsException
-        a[1] =2;
+//        Boolean flag = false;
+//        if (flag = true) {
+//            System.out.println(true);
+//        } else {
+//            System.out.println(false);
+//        }
+//
+//        System.out.println(flag = false);
+//
+//        int a[]=null; a[0]=1;//将产生ArraylndexOutOfBoundsException
+//        a[1] =2;
+        String ss = "1112223334444";
+        int length = ss.length();
+        System.out.println(ss.substring(length-4,length));
+        System.out.println(ss.substring(0,3));
     }
 }
