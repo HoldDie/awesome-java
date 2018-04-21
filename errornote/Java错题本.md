@@ -1377,3 +1377,80 @@ intValue（）：把 `Integer`对象类型编程int的基础数据类型。
 parseInt（）：把 `String`变成`int` 的基础数据类型。 
 
 Valueof（）：把`String` 转化成 `Integer` 对象类型
+
+------
+
+![img](pic/8955099_1521189690989_0BB28C2A1ECCC47EC020E89E8A554BBC.png)
+
+------
+
+Java 中局部变量和成员变量可以重名，这时可以使用`"this"`指代成员变量。
+
+对于一个变量的定义，是定义不是声明。
+
+Java 中的顶层容器是指可以不能被其他容器包含，是容纳其他容器的容器组件。
+
+顶层容器可以包含JApplet、JDialog、JFrame和JWindow及其子类，JFrame 中就可以放 JTree（树组件）
+
+Java 程序中使用赋值运算符进行对象赋值时，可以得到两个完全相同的对象。:negative_squared_cross_mark:
+
+对象间赋值其实是地址传递，引用传递，只是指向了相同的对象，其实对象并没有多一个。
+
+xxx.getClass().getName()，可以知道是返回当前运行类的名称：包名 + 类名
+
+非静态变量不能够被静态方法引用。
+
+Collection
+
+- List 接口：内容允许重复
+  - ArrayList
+  - LinkedList 也实现了 Queue
+  - Vector
+- Set 接口：内容不允许重复
+- Queue 接口：队列接口
+- SortedSet 接口：单值排序接口
+
+Map 接口
+
+- HashMap 接口：无序存放，key不可以重复
+- HashTable 接口：无序存放，key 不可以重复
+- TreeMap 接口：按 key 排序，key 不重复
+- IdentityHashMap 接口：key 可以重复
+- WeakHashMap 接口：弱引用 Map 集合
+
+字符流是字节流根据字节流所要求的的编码集解析获得的
+
+字符流 = 字节流  + 编码集
+
+字节流：
+
+InputStream
+
+- FileInputStream
+- BufferedInputStream
+- DataInputStream
+- ObjectInputStream
+
+字符流：
+
+Reader：
+
+- InputStreamReader
+- BufferedReader
+
+Writer
+
+- OutputStreamWriter
+- BufferedWriter
+- PrintWriter
+
+
+
+
+
+
+
+
+
+
+
