@@ -1445,9 +1445,13 @@ Writer
 - PrintWriter
 
 
+------
 
+接口内可以定义静态方法但是必须由方法体，也就是初始化
 
+Java 中程序的种类有：Applet、Application、Servlet。
 
+抽象方法不可以写出方法体`{}`
 
 
 
