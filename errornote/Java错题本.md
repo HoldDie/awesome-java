@@ -1453,6 +1453,60 @@ Java 中程序的种类有：Applet、Application、Servlet。
 
 抽象方法不可以写出方法体`{}`
 
+------
+
+CyclicBarrier 是一个屏障类，它的await方法可以简单理解为：等待多个线程同时到达之后才能继续进行，在此之前它就是这些线程的屏障，线程不能继续进行，而对于失败的同步尝试，CyclicBarrier 使用了一种要么全部要要么全不的破坏模式。如果因为中断，失败或者超时等原因，导致线程过早地离开了屏障点，那么在该屏障点等待的其他所有线程也将通过BrokenBarrierException（如果他们几乎同时被中断，则用interruptedExcetion）以反常的方式离开。
+
+抛 InterruptedException 的代表方式有：
+
+- java.lang.Object 类的 wait 方法
+- java.lang.Thread 类的 sleep 方法
+- java.lang.Thread 类的 join 方法
+- CyclicBarrier.await 
+
+suspend 这个方法容易造成死锁，已被标记过时了。
+
+java和c++都有三个特征：封装、继承、多态
+
+扩展方法是否访问被扩展对象的成员？:negative_squared_cross_mark:  private 类型的成员是不能被扩展字段。
+
+`Spring Propagation` 类的事务属性详解：
+
+- REQUIRED：支持当前事务，如果当前没有事务，就新建一个事务。这是最常见的选择。 
+- SUPPORTS：支持当前事务，如果当前没有事务，就以非事务方式执行。 
+- MANDATORY：支持当前事务，如果当前没有事务，就抛出异常。 
+- REQUIRES_NEW：新建事务，如果当前存在事务，把当前事务挂起。 
+- NOT_SUPPORTED：以非事务方式执行操作，如果当前存在事务，就把当前事务挂起。 
+- NEVER：以非事务方式执行，如果当前存在事务，则抛出异常。 
+- NESTED：支持当前事务，如果当前事务存在，则执行一个嵌套事务，如果当前没有事务，就新建一个事务。 、
+
+JDK 中提供的 java、javac、jar 等开发工具也是用Java编写的。
+
+java 程序种类：
+
+- 内嵌于web文件中，游浏览器观看的applet
+- 可独立运行的application
+- 服务端的servlets
+
+在 main（）方法中给出的整形数组，如果将其写到一个文件中，需要建立数据字节输出流。
+
+ConcurrentHashMap 使用segment来分段和管理锁，segment继承自ReentrantLock，因此ConcurrentHashMap使用ReentrantLock来保证线程安全。
+
+Arrays.asList()将一个对象转化为一个List对象，这个方法会返回一个 ArrayList 类型的对象，这个ArrayList类并非java.util.ArrayList类，而是Arrays类的静态内部类，用这个对象列表进行
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
