@@ -1494,21 +1494,60 @@ ConcurrentHashMap 使用segment来分段和管理锁，segment继承自Reentrant
 
 Arrays.asList()将一个对象转化为一个List对象，这个方法会返回一个 ArrayList 类型的对象，这个ArrayList类并非java.util.ArrayList类，而是Arrays类的静态内部类，用这个对象列表进行
 
+------
 
+一个类继承了Thread类，即使没有重写run方法，也可以编译通过，但是若执行，则会什么都没有输出，于此同时，若定义了start方法，即使不用重写run方法，也可以运行出结果。
 
+GUI panel 容器以及布局管理器 Panel 是AWT 中的另一个典型容器，它代表不能独立存在，必须放在其他容器中使用，可作为容器来承装其他组件，为放置组件提供空间，2、不能单独存在，必须放置到其他容器当中，3、默认使用FlowLayout作为布局管理器。
 
+接口的修饰符只能使用public和abstract修饰。
 
+------
 
+静态页面和动态页面区别：
 
+静态的include：是jsp的指令来实现的，`<% @include file="xx.html" %>`特点就是共享request请求域，先包含再编译，不检查包含页面的变化。
 
+动态的include：是jsp动作来实现的，`<"jsp:include page="xxx.jsp" flush="true"/>` 这个是不共享request请求域，先编译再包含，是要检查包含页面的变化。
 
+------
 
+System.in 和 System.out 是java中的标准输入输出流，一般情况下代表从控制台输入和输出到控制台。
 
+------
 
+关于request的一些参数解释：
 
+在服务端放入cookies是通过response.addCookie(cookie)
 
+Accept 浏览器可接受的 MIME 类型
 
+Accept-Charset 浏览器支持的字符编码
 
+Accept-Encoding：浏览器知道如何解码的数据编码类型
 
+Accept-Language：浏览器指定的语言，当Server支持多语种是起作用
 
+Authorization：认证信息，一般是对服务器发出的WWW-Authenticate 头的回应
 
+Connection：是否继续持有连接，如果Servlet发现这个字段的值时Keep-Alive，使用持续连接可以使保护很多小文件的页面的下载时间减少
+
+Conten-Length：使用POST提交，传递数据的字节数
+
+Cookie：用来进行和Cookie有关的操作
+
+Host：主机和端口
+
+Referer：URL
+
+User-Agent：客户端的类型，一般用来区分不同的浏览器
+
+------
+
+lambda 表达式的主要作用就是代替匿名内部类的繁琐语法：
+
+1、形参列表，形参列表允许省略形参类型，如果形参列表中只有一个参数，甚至连形参列表的圆括号也可以省略
+
+2、箭头：必须通过英文中的画线和大于符号组成
+
+3、代码块：如果代码块中只包含一条语句，lambda表达式允许省略代码块的花括号，那么那条语句就不要用花括号标识语句结束。lambda 代码块只有一条return语句，甚至可以省略return关键字。lambda 表达式需要返回值，而它的代码块中仅有一套省略的return的语句，lambda表达式会自动返回这条语句的值。
