@@ -1847,9 +1847,46 @@ WeakHashMap 改进的 HashMap ，实现了“弱引用”，如果一个key不�
 
 final 修饰的类肯定不能被继承，但是可以重载。
 
+------
 
+在 java 中，对于不再使用的内存资源，如调用完成的方法，“垃圾回收器”会自动将其释放。:negative_squared_cross_mark:
 
+原因：方法调用时，会创建栈帧在栈中，调用完成时，程序自动出栈释放，而不是GC释放。
 
+误区：GC 释放内存
 
+------
 
+导致 OurOfMemoryError 的情况：
 
+- ##### java.lang.OutOfMemoryError: Java heap space。
+
+  - ##### 堆中没有空间了
+
+- #####  java.lang.OutOfMemoryError: PermGen space
+
+  - ##### 持久代没哟空间了
+
+- ##### java.lang.OutOfMemoryError: GC overhead limit exceeded
+
+  - ##### 虚拟机提示花在垃圾回收的时间太大了
+
+- ##### java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+
+  - ##### 当你准备创建一个超出虚拟机允许的大小的数据时，出现此错误
+
+- ##### java.lang.OutOfMemoryError: request bytes for . Out of swap space？
+
+  - ##### 系统给虚拟机分配的内存空间不足时
+
+- ##### java.lang.OutOfMemoryError: (Native method)
+
+  - ##### 通常是 JNI 或者 本地方法中检测到，而不是在虚拟机中执行的代码，来自本地代码执行错误
+
+------
+
+JDK 并发编程的同步容器
+
+-  Semaphore 可以很轻松完成信号量控制，Semaphore可以控制某个资源可被同时访问的个数，通过 acquire() 获取一个许可，如果没有就等待，而 release() 释放一个许可
+- CyclicBarrier 主要的方法就是一个：await()。await() 方法没被调用一次，计数便会减少1，并阻塞住当前线程。当计数减至0时，阻塞解除，所有在此 CyclicBarrier 上面阻塞的线程开始运行
+- CountDownLatch 倒计数(CountDown)门闩(Latch)。倒计数不用说，门闩的意思顾名思义就是阻止前进。在这里就是指 CountDownLatch.await() 方法在倒计数为0之前会阻塞当前线程
