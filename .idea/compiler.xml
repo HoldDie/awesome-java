@@ -10,19 +10,20 @@
         <module name="dynamic" />
         <module name="idleaf" />
         <module name="jpa" />
+        <module name="multi-module" />
+        <module name="multi-moduleA" />
+        <module name="multi-moduleB" />
         <module name="springboot-jpa" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="common-tutorial" target="1.5" />
-      <module name="demo" target="1.8" />
       <module name="dynamic" target="1.8" />
-      <module name="dynamic-conf" target="1.8" />
-      <module name="dynamic-configuration" target="1.8" />
-      <module name="dynamicconf" target="1.5" />
       <module name="idleaf" target="1.8" />
       <module name="jpa" target="1.8" />
-      <module name="springboot-jpa" target="1.8" />
+      <module name="multi-module" target="1.8" />
+      <module name="multi-moduleA" target="1.8" />
+      <module name="multi-moduleB" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

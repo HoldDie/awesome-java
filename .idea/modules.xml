@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/idleaf/idleaf.iml" filepath="$PROJECT_DIR$/idleaf/idleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-base/java-base.iml" filepath="$PROJECT_DIR$/java-base/java-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-module/multi-module.iml" filepath="$PROJECT_DIR$/multi-module/multi-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-module/multi-moduleA/multi-moduleA.iml" filepath="$PROJECT_DIR$/multi-module/multi-moduleA/multi-moduleA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-module/multi-moduleB/multi-moduleB.iml" filepath="$PROJECT_DIR$/multi-module/multi-moduleB/multi-moduleB.iml" />
       <module fileurl="file://$PROJECT_DIR$/niu--coder/niu--coder.iml" filepath="$PROJECT_DIR$/niu--coder/niu--coder.iml" />
     </modules>
   </component>

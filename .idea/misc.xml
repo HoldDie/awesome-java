@@ -20,6 +20,9 @@
         <option value="$PROJECT_DIR$/dynamic-conf/pom.xml" />
         <option value="$PROJECT_DIR$/dynamic/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/multi-module/multi-moduleA/pom.xml" />
+        <option value="$PROJECT_DIR$/multi-module/multi-moduleB/pom.xml" />
+        <option value="$PROJECT_DIR$/multi-module/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
