@@ -1891,3 +1891,140 @@ JDK 并发编程的同步容器
 - CyclicBarrier 主要的方法就是一个：await()。await() 方法没被调用一次，计数便会减少1，并阻塞住当前线程。当计数减至0时，阻塞解除，所有在此 CyclicBarrier 上面阻塞的线程开始运行
 - CountDownLatch 倒计数(CountDown)门闩(Latch)。倒计数不用说，门闩的意思顾名思义就是阻止前进。在这里就是指 CountDownLatch.await() 方法在倒计数为0之前会阻塞当前线程
 
+
+------
+
+JMX  是在一个 JDK 中1.4版本开始。
+
+JMX（Java Management Extendsions，即Java管理扩展）是一个为应用程序、设备、系统等植入管理功能的框架，JMX 可以跨越一系列异构操作系统、系统体系结构和网络传输协议，灵活的开发无缝集成的系统、网络和服务管理应用。
+
+------
+
+JAVA语言的下面几种数组复制方法中，哪个效率最高？
+
+```
+A.for循环逐一复制
+```
+
+```
+B.System.arraycopy
+```
+
+```
+C.System.copyof
+```
+
+```
+D.使用clone方法
+```
+
+效率：System.arraycopy > clone > Arrays.copyOf > for循环
+
+1、System.arraycopy的用法：
+
+```java
+public static void arraycopy(Object src,  
+                             int srcPos,  
+                             Object dest,  
+                             int destPos,  
+                             int length)  
+```
+
+参数：
+
+`src` - 源数组。
+
+`srcPos` - 源数组中的起始位置。
+
+`dest` - 目标数组。
+
+`destPos` - 目标数据中的起始位置。
+
+`length` - 要复制的数组元素的数量
+
+应用实例：
+
+```java
+public class Main{  
+    public static void main(String[] args) {  
+
+        int[] a1={1,2,3,4,5,6};  
+        int[] a2={11,12,13,14,15,16};  
+
+        System.arraycopy(a1, 2, a2, 3, 2);  
+        System.out.print("copy后结果：");  
+        for(int i=0;i<a2.length;i++){  
+            System.out.print(a2[i]+" ");      
+        }  
+    }  
+}  
+```
+
+运行结果：
+
+![img](/20160828131950031.png)
+
+2、clone 的用法：
+
+java.lang.Object类的clone()方法为protected类型，不可直接调用，需要先对要克隆的类进行下列操作：
+
+首先被克隆的类实现Cloneable接口；然后在该类中覆盖clone()方法，并且在该clone()方法中调用super.clone()；这样，super.clone()便可以调用java.lang.Object类的clone()方法。
+
+应用实例：
+
+```java
+//被克隆的类要实现Cloneable接口  
+class Cat implements Cloneable   
+{  
+    private String name;  
+    private int age;  
+    public Cat(String name,int age)  
+    {  
+        this.name=name;  
+        this.age=age;  
+    }  
+    //重写clone()方法  
+    protected Object clone()throws CloneNotSupportedException{    
+        return super.clone() ;    
+    }  
+}  
+public class Clone {  
+    public static void main(String[] args) throws CloneNotSupportedException {  
+
+        Cat cat1=new Cat("xiaohua",3);  
+        System.out.println(cat1);  
+        //调用clone方法  
+        Cat cat2=(Cat)cat1.clone();  
+        System.out.println(cat2);  
+    }  
+}  
+```
+
+3、复制引用和复制对象的区别
+
+复制引用：是指将某个对象的地址复制，所以复制后的对象副本的地址和源对象相同，这样，当改变副本的某个值后，源对象值也被改变；
+
+复制对象：是将源对象整个复制，对象副本和源对象的地址并不相同，当改变副本的某个值后，源对象值不会改变；
+
+```java
+Cat cat1=new Cat("xiaohua",3);//源对象  
+System.out.println("源对象地址"+cat1);  
+//调用clone方法，复制对象  
+Cat cat2=(Cat)cat1.clone();  
+Cat cat3=(Cat)cat1;//复制引用  
+System.out.println("复制对象地址："+cat2);  
+System.out.println("复制引用地址："+cat3);  
+```
+
+输出结果：
+
+![img](/20160828133856088.png)
+可以看出，复制引用的对象和源对象地址相同，复制对象和源对象地址不同
+
+4、Arrays.copyOf 的用法：
+
+Arrays.copyOf有十种重载方法，复制指定的数组，返回原数组的副本。具体可以查看jdk api
+
+注意：
+
+在System类源码中给出了arraycopy的方法，是native方法，也就是本地方法，肯定是最快的。而Arrays.copyOf(注意是Arrays类，不是Array)的实现，在源码中是调用System.copyOf的，多了一个步骤，肯定就不是最快的。

@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb90397c-625f-4621-9321-90f57ad2cf61" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="eb90397c-625f-4621-9321-90f57ad2cf61" name="Default" comment=":yellow_heart: 多模块加载">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/errornote/Java错题本.md" afterPath="$PROJECT_DIR$/errornote/Java错题本.md" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,64 +62,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="URLClassLoader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/net/URLClassLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassLoader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/ClassLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="423" column="0" lean-forward="false" selection-start-line="423" selection-start-column="0" selection-end-line="423" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModuleManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi-module/src/main/java/com/holddie/module/ModuleManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2046">
-              <caret line="93" column="5" lean-forward="false" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#613#621#0" expanded="true" />
-                <element signature="e#1163#1179#0" expanded="true" />
-                <element signature="e#1518#1547#1" expanded="true" />
-                <element signature="e#1656#1685#1" expanded="true" />
-                <element signature="e#3227#3228#0" expanded="true" />
-                <element signature="e#3255#3256#0" expanded="true" />
-                <element signature="e#3309#3310#0" expanded="true" />
-                <element signature="e#3343#3344#0" expanded="true" />
-                <element signature="e#3386#3387#0" expanded="true" />
-                <element signature="e#3419#3420#0" expanded="true" />
-                <element signature="e#3477#3478#0" expanded="true" />
-                <element signature="e#3521#3522#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Callable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/Callable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="64" column="6" lean-forward="false" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multi-module/src/main/java/com/holddie/module/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
+            <state relative-caret-position="580">
               <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -133,15 +75,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoudleServiceA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi-module/multi-moduleA/src/main/java/com/holddie/multi/modulea/MoudleServiceA.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#298#307#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Action.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding>
+                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hero.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/Hero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloSogou.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/HelloSogou.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Servlet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28-sources.jar!/javax/servlet/Servlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="85" column="29" lean-forward="true" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenericServlet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28-sources.jar!/javax/servlet/GenericServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#8935#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,36 +174,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi-module/multi-moduleA/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi-module/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi-module/multi-moduleB/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -228,12 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0417/ThreadStopTest.java" />
-        <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0417/ThreadStopIntur.java" />
-        <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0418/Test.java" />
-        <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0418/Example.java" />
-        <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0418/HasStatic.java" />
-        <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0418/Square.java" />
         <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0418/Base.java" />
         <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0418/TrueTest.java" />
         <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gam0419/TestSocket.java" />
@@ -279,6 +263,12 @@
         <option value="$PROJECT_DIR$/multi-module/src/main/java/com/holddie/module/ModuleClassLoader.java" />
         <option value="$PROJECT_DIR$/multi-module/src/main/java/com/holddie/module/ModuleManager.java" />
         <option value="$PROJECT_DIR$/multi-module/src/main/java/com/holddie/module/AppTest.java" />
+        <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/Test.java" />
+        <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/A.java" />
+        <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/Car.java" />
+        <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/HelloSogou.java" />
+        <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/Action.java" />
+        <option value="$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/Hero.java" />
       </list>
     </option>
   </component>
@@ -378,84 +368,46 @@
             <path>
               <item name="common-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="common-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-module" type="462c0819:PsiDirectoryNode" />
+              <item name="niu--coder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="common-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="common-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-module" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-moduleA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="common-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-module" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-moduleA" type="462c0819:PsiDirectoryNode" />
+              <item name="niu--coder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="common-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="common-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-module" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-moduleA" type="462c0819:PsiDirectoryNode" />
+              <item name="niu--coder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="common-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="common-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-module" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-moduleA" type="462c0819:PsiDirectoryNode" />
+              <item name="niu--coder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="gan0428" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="common-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="common-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-module" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-moduleA" type="462c0819:PsiDirectoryNode" />
+              <item name="niu--coder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="modulea" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="gan0428" type="462c0819:PsiDirectoryNode" />
+              <item name="A.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="common-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="common-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-module" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-moduleA" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="common-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-module" type="462c0819:PsiDirectoryNode" />
+              <item name="niu--coder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="common-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="common-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="common-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="multi-module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="gan0428" type="462c0819:PsiDirectoryNode" />
+              <item name="Car.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="common-tutorial" type="b2602c69:ProjectViewProjectNode" />
@@ -726,32 +678,13 @@
     </option>
     <option name="contentProportion" value="0.18714769" />
   </component>
-  <component name="RunManager" selected="Application.AppTest">
+  <component name="RunManager" selected="Application.HelloSogou">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.holddie.niu.code.gan0427.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.holddie.niu.code.gan0427.A" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="niu--coder" />
-      <envs />
     </configuration>
     <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -772,14 +705,14 @@
       <module name="multi-module" />
       <envs />
     </configuration>
-    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.holddie.niu.code.gan0417.*" />
+          <option name="PATTERN" value="com.holddie.niu.code.gan0428.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.holddie.niu.code.gan0417.MyApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.holddie.niu.code.gan0428.Car" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -791,14 +724,33 @@
       <module name="niu--coder" />
       <envs />
     </configuration>
-    <configuration name="MysqlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloSogou" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.holddie.niu.code.gan0426.*" />
+          <option name="PATTERN" value="com.holddie.niu.code.gan0428.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.holddie.niu.code.gan0426.MysqlTest" />
+      <option name="MAIN_CLASS_NAME" value="com.holddie.niu.code.gan0428.HelloSogou" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="niu--coder" />
+      <envs />
+    </configuration>
+    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.holddie.niu.code.gan0417.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.holddie.niu.code.gan0417.MyApplication" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -829,14 +781,14 @@
       <module name="niu--coder" />
       <envs />
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.holddie.niu.code.gan0426.*" />
+          <option name="PATTERN" value="com.holddie.niu.code.gan0428.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.holddie.niu.code.gan0426.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.holddie.niu.code.gan0428.Test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -968,19 +920,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.JpaApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.DynamicApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MysqlTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.A" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Test (1)" />
-      <item index="6" class="java.lang.String" itemvalue="Application.AppTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AppTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test (2)" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Car" />
+      <item index="6" class="java.lang.String" itemvalue="Application.HelloSogou" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AppTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.A" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MysqlTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="0" class="java.lang.String" itemvalue="Application.HelloSogou" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Car" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AppTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1029,7 +981,7 @@
       <workItem from="1524612184229" duration="2823000" />
       <workItem from="1524698864411" duration="4191000" />
       <workItem from="1524785005035" duration="2898000" />
-      <workItem from="1524837246685" duration="2204000" />
+      <workItem from="1524837246685" duration="5917000" />
     </task>
     <task id="LOCAL-00001" summary=":oncoming_police_car: Spring-boot-JPA 开车了">
       <created>1522592957144</created>
@@ -1178,11 +1130,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524789308459</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary=":yellow_heart: 多模块加载">
+      <created>1524839526191</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1524839526191</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122134000" />
+    <option name="totallyTimeSpent" value="125847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-810" width="1936" height="1216" extended-state="6" />
@@ -1209,10 +1168,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12879485" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934684" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25850967" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32382706" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30818766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14765458" sideWeight="0.59833026" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15511727" sideWeight="0.59833026" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935026" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -1255,7 +1214,8 @@
     <MESSAGE value=":yum: 访问控制符、接口" />
     <MESSAGE value=":yum: ContextClassLoader 破解双亲委派机制，使用上下文加载" />
     <MESSAGE value=":chart_with_upwards_trend: super() 和 this() 的区别" />
-    <option name="LAST_COMMIT_MESSAGE" value=":chart_with_upwards_trend: super() 和 this() 的区别" />
+    <MESSAGE value=":yellow_heart: 多模块加载" />
+    <option name="LAST_COMMIT_MESSAGE" value=":yellow_heart: 多模块加载" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1264,70 +1224,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0421/SwitchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="137" column="13" lean-forward="false" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0421/SuperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4444">
-          <caret line="227" column="19" lean-forward="false" selection-start-line="227" selection-start-column="19" selection-end-line="227" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Hashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2288">
-          <caret line="132" column="43" lean-forward="false" selection-start-line="132" selection-start-column="43" selection-end-line="132" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0422/OuterClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0422/AbstractTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0422/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0422/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0421/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -1457,6 +1353,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1626,8 +1523,8 @@
         <state relative-caret-position="220">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="false" />
+            <element signature="e#245#246#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1725,11 +1622,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/multi-module/src/main/java/com/holddie/module/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
+        <state relative-caret-position="580">
           <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#677#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/HelloSogou.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/javax.servlet.Servlet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>javax.servlet.Servlet</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.servlet.Servlet</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="42.5" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28-sources.jar!/javax/servlet/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="85" column="29" lean-forward="true" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28-sources.jar!/javax/servlet/GenericServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#8935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#298#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niu--coder/src/com/holddie/niu/code/gan0428/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
           </folding>
         </state>
       </provider>
