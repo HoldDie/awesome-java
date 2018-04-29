@@ -2028,3 +2028,17 @@ Arrays.copyOf有十种重载方法，复制指定的数组，返回原数组的�
 注意：
 
 在System类源码中给出了arraycopy的方法，是native方法，也就是本地方法，肯定是最快的。而Arrays.copyOf(注意是Arrays类，不是Array)的实现，在源码中是调用System.copyOf的，多了一个步骤，肯定就不是最快的。
+
+------
+
+DBMS 中实现事务持久性的子系统恢复管理子系统
+
+Thread 可以被继承，用于创建新的线程
+
+Number 类可以被继承，Integer，Float，Double等都继承自Number类
+
+Double 类的声明为：final ，不可以被继承
+
+Math 类也是被声明为 final ，不可以被继承
+
+ClassLoader 可以被继承，用户可以自定义类加载器
