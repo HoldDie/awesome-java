@@ -13,6 +13,7 @@
         <module name="multi-module" />
         <module name="multi-moduleA" />
         <module name="multi-moduleB" />
+        <module name="niu--coder" />
         <module name="springboot-jpa" />
       </profile>
     </annotationProcessing>
@@ -21,9 +22,10 @@
       <module name="dynamic" target="1.8" />
       <module name="idleaf" target="1.8" />
       <module name="jpa" target="1.8" />
-      <module name="multi-module" target="1.8" />
-      <module name="multi-moduleA" target="1.8" />
-      <module name="multi-moduleB" target="1.8" />
+      <module name="multi-module" target="1.5" />
+      <module name="multi-moduleA" target="1.5" />
+      <module name="multi-moduleB" target="1.5" />
+      <module name="niu--coder" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
