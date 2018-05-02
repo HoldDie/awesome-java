@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/multi-module/multi-moduleA/multi-moduleA.iml" filepath="$PROJECT_DIR$/multi-module/multi-moduleA/multi-moduleA.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-module/multi-moduleB/multi-moduleB.iml" filepath="$PROJECT_DIR$/multi-module/multi-moduleB/multi-moduleB.iml" />
       <module fileurl="file://$PROJECT_DIR$/niu--coder/niu--coder.iml" filepath="$PROJECT_DIR$/niu--coder/niu--coder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sword-pointing-to-offer/sword-pointing-to-offer.iml" filepath="$PROJECT_DIR$/sword-pointing-to-offer/sword-pointing-to-offer.iml" />
     </modules>
   </component>
 </project>
