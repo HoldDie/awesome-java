@@ -1,55 +1,66 @@
 package com.holddie.sword.pointing.offer;
 
 /**
- * 有序二维数组查找值
+ * 数组中重复数字
  * @author yangze1
  * @version 1.0.0
  * @email holddie@163.com
- * @date 2018/5/2 9:09
+ * @date 2018/5/4 9:25
  */
 public class No03 {
 
     /**
-     * 在一个二维数组中，每一行都按照从左到右递增
-     * 的顺序排序，每一列都按照从上到下递增的顺序排序。
-     * 请完成一个函数，输入这样的一个二维数组
-     * 和一个整数，判断数组中是否函数该整数。
+     * 题目描述
+     在一个长度为 n 的数组里的所有数字都在 0 到 n-1 的范围内。数组中某些数字是重复的，
+     但不知道有几个数字是重复的，也不知道每个数字重复几次。请找出数组中任意一个重复的数字。
+     例如，如果输入长度为 7 的数组 {2, 3, 1, 0, 2, 5}，那么对应的输出是第一个重复的数字 2。
+
+     要求复杂度为 O(N) + O(1)，也就是时间复杂度 O(N)，空间复杂度 O(1)。
+     因此不能使用排序的方法，也不能使用额外的标记数组。
+     牛客网讨论区这一题的首票答案使用 nums[i] + length 来将元素标记，这么做会有加法溢出问题。
      */
-    public static void main(String[] args) {
 
-        int[][] arr = {
-                {1, 2, 3, 4},
-                {2, 3, 4, 5},
-                {3, 4, 5, 6},
-                {4, 5, 6, 7}
-        };
-        System.out.println(find(arr, 5));
 
-        /**
-         * 总结:
-         * 此处的查找，只是判断数组中是否含有某个数字，
-         * 关键点就是利用每行和每列的规律，可以从右上角开始，
-         * 也可以从左下角开始，利用的就是不对称，
-         * 若在其中查找某个数的第几个，此时会在添加一个标志位，此时应指明次序
-         */
-
-    }
-
-    private static boolean find(int[][] arr, int i) {
-        int a = arr.length;
-        int b = arr[0].length;
-        for (int c = 0, d = a - 1; c <= b - 1 && d >= 0; ) {
-            if (arr[d][c] == i) {
-                System.out.println("第" + (d + 1) + "行,第" + (c + 1) + "列");
-                return true;
-            }
-            if (arr[d][c] > i) {
-                --d;
-            } else {
-                ++c;
+    private boolean duplicate(int[] nums, int length, int[] duplication) {
+        if (nums == null || length < 0) {
+            return false;
+        }
+        for (int i = 0; i < length; i++) {
+            while (nums[i] != i) {
+                if (nums[i] == nums[nums[i]]) {
+                    duplication[0] = nums[i];
+                    return true;
+                }
+                swap(nums, i, nums[i]);
             }
         }
         return false;
     }
+
+    private void swap(int[] nums, int i, int j) {
+        int t = nums[i];
+        nums[i] = nums[j];
+        nums[j] = t;
+    }
+
+    public static void main(String[] args) {
+        No03 no03 = new No03();
+        int[] nums = {2, 3, 1, 0, 2, 5};
+        int[] dup = new int[3];
+        System.out.println(no03.duplicate(nums, nums.length, dup));
+        System.out.println(dup[0]);
+    }
+
+    /**
+     *
+     * position-0 : (2,3,1,0,2,5) // 2 <-> 1
+                    (1,3,2,0,2,5) // 1 <-> 3
+                    (3,1,2,0,2,5) // 3 <-> 0
+                    (0,1,2,3,2,5) // already in position
+       position-1 : (0,1,2,3,2,5) // already in position
+       position-2 : (0,1,2,3,2,5) // already in position
+       position-3 : (0,1,2,3,2,5) // already in position
+       position-4 : (0,1,2,3,2,5) // nums[i] == nums[nums[i]], exit
+     */
 
 }
