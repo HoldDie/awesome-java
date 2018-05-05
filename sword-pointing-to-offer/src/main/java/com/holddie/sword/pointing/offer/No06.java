@@ -1,7 +1,5 @@
 package com.holddie.sword.pointing.offer;
 
-import java.util.ArrayList;
-
 /**
  * 从尾到头打印链表
  * @author yangze1
@@ -17,6 +15,9 @@ public class No06 {
     //https://github.com/CyC2018/Interview-Notebook/blob/master/notes/%E5%89%91%E6%8C%87%20offer%20%E9%A2%98%E8%A7%A3.md#2-%E5%AE%9E%E7%8E%B0-singleton
 //    private ArrayList<Integer>
 
+
+    int a = 10;
+    int[] c = new int[a];
 
 
 }
