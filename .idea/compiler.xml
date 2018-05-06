@@ -19,7 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="common-tutorial" target="1.8" />
+      <module name="common-tutorial" target="1.5" />
       <module name="dynamic" target="1.8" />
       <module name="idleaf" target="1.8" />
       <module name="jpa" target="1.8" />
