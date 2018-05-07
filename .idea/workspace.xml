@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef4e9398-1097-4566-be75-28456c3cb453" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/common-tutorial.iml" afterPath="$PROJECT_DIR$/common-tutorial.iml" />
-      <change beforePath="$PROJECT_DIR$/sword-pointing-to-offer/pom.xml" afterPath="$PROJECT_DIR$/sword-pointing-to-offer/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/sword-pointing-to-offer/src/main/java/com/holddie/sword/pointing/offer/No06.java" afterPath="$PROJECT_DIR$/sword-pointing-to-offer/src/main/java/com/holddie/sword/pointing/offer/No06.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/errornote/" />
@@ -41,15 +37,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="No07.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="No07.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sword-pointing-to-offer/src/main/java/com/holddie/sword/pointing/offer/No07.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1492#1493#0" expanded="true" />
                 <element signature="e#1522#1523#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="No08.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sword-pointing-to-offer/src/main/java/com/holddie/sword/pointing/offer/No08.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="743">
+              <caret line="65" column="27" lean-forward="false" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+              <folding>
+                <element signature="e#1825#1826#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,6 +109,7 @@
         <option value="$PROJECT_DIR$/sword-pointing-to-offer/pom.xml" />
         <option value="$PROJECT_DIR$/sword-pointing-to-offer/src/main/java/com/holddie/sword/pointing/offer/No06.java" />
         <option value="$PROJECT_DIR$/sword-pointing-to-offer/src/main/java/com/holddie/sword/pointing/offer/No07.java" />
+        <option value="$PROJECT_DIR$/sword-pointing-to-offer/src/main/java/com/holddie/sword/pointing/offer/No08.java" />
       </list>
     </option>
   </component>
@@ -514,7 +523,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.No07">
+  <component name="RunManager" selected="Application.No08">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -587,6 +596,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.holddie.sword.pointing.offer.No07" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sword-pointing-to-offer" />
+      <envs />
+    </configuration>
+    <configuration name="No08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.holddie.sword.pointing.offer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.holddie.sword.pointing.offer.No08" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -672,18 +700,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.No03" />
       <item index="1" class="java.lang.String" itemvalue="Application.No05" />
       <item index="2" class="java.lang.String" itemvalue="Application.No06" />
       <item index="3" class="java.lang.String" itemvalue="Application.No07" />
+      <item index="4" class="java.lang.String" itemvalue="Application.No08" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.No07" />
-        <item index="1" class="java.lang.String" itemvalue="Application.No06" />
-        <item index="2" class="java.lang.String" itemvalue="Application.No05" />
-        <item index="3" class="java.lang.String" itemvalue="Application.No03" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.No08" />
+        <item index="1" class="java.lang.String" itemvalue="Application.No07" />
+        <item index="2" class="java.lang.String" itemvalue="Application.No06" />
+        <item index="3" class="java.lang.String" itemvalue="Application.No05" />
+        <item index="4" class="java.lang.String" itemvalue="Application.No03" />
       </list>
     </recent_temporary>
   </component>
@@ -714,7 +744,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525502490916</updated>
-      <workItem from="1525502562871" duration="13931000" />
+      <workItem from="1525502562871" duration="16971000" />
     </task>
     <task id="LOCAL-00003" summary=":yum: 数组">
       <created>1525506366348</created>
@@ -730,14 +760,22 @@
       <option name="project" value="LOCAL" />
       <updated>1525506417204</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=":mailbox_with_no_mail: 理解前中序数结构">
+      <created>1525613746901</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525613746901</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16897000" />
+    <option name="totallyTimeSpent" value="19937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-810" width="1936" height="1216" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931355" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -751,7 +789,7 @@
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14605543" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275069" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275069" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28426862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -759,10 +797,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934684" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275069" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25206992" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21067157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30818766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12473348" sideWeight="0.59833026" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12473348" sideWeight="0.59833026" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935026" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -791,7 +829,8 @@
     <MESSAGE value=":post_office: 替换" />
     <MESSAGE value=":yum: 数组" />
     <MESSAGE value=":yum: 数据结构" />
-    <option name="LAST_COMMIT_MESSAGE" value=":yum: 数据结构" />
+    <MESSAGE value=":mailbox_with_no_mail: 理解前中序数结构" />
+    <option name="LAST_COMMIT_MESSAGE" value=":mailbox_with_no_mail: 理解前中序数结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -800,13 +839,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/multi-module/src/main/java/com/holddie/module/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/niu--coder/src/main/java/com/holddie/niu/code/gan1804/gan0428/A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1238,12 +1270,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sword-pointing-to-offer/src/main/java/com/holddie/sword/pointing/offer/No07.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1492#1493#0" expanded="true" />
             <element signature="e#1522#1523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sword-pointing-to-offer/src/main/java/com/holddie/sword/pointing/offer/No08.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="65" column="27" lean-forward="false" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+          <folding>
+            <element signature="e#1825#1826#0" expanded="true" />
           </folding>
         </state>
       </provider>
