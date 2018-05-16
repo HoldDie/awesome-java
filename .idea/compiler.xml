@@ -26,7 +26,7 @@
       <module name="multi-module" target="1.5" />
       <module name="multi-moduleA" target="1.5" />
       <module name="multi-moduleB" target="1.5" />
-      <module name="niu--coder" target="1.5" />
+      <module name="niu--coder" target="1.8" />
       <module name="sword-pointing-to-offer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
