@@ -40,6 +40,11 @@ public class No23 {
         return null;
     }
 
+    /**
+     * 当然也可以使用一个HashSet方法，循环遍历，完全循环整个链表
+     * 总会有一个节点的指定，环的入口，此时就会判断是否存在，若存在
+     * 就表明这个节点就是入口地址。
+     */
     public static void main(String[] args) {
 
         ListNode node1 = new ListNode("A");
