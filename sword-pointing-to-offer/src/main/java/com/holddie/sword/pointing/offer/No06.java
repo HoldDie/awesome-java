@@ -142,4 +142,11 @@ class ListNode {
     ListNode(String data) {
         this.data = data;
     }
+
+    @Override
+    public String toString() {
+        return "ListNode{" +
+                "data='" + data + '\'' +
+                '}';
+    }
 }
