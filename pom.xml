@@ -8,7 +8,6 @@
     <modules>
         <module>dynamic</module>
         <module>sword-pointing-to-offer</module>
-        <module>design-pattern</module>
     </modules>
     <packaging>pom</packaging>
 
