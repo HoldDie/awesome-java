@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="design-simple-factory" />
         <module name="dynamic" />
         <module name="idleaf" />
         <module name="jpa" />
@@ -20,13 +21,14 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="common-tutorial" target="1.5" />
+      <module name="design-simple-factory" target="1.7" />
       <module name="dynamic" target="1.8" />
       <module name="idleaf" target="1.8" />
       <module name="jpa" target="1.8" />
       <module name="multi-module" target="1.5" />
       <module name="multi-moduleA" target="1.5" />
       <module name="multi-moduleB" target="1.5" />
-      <module name="niu--coder" target="1.8" />
+      <module name="niu--coder" target="1.5" />
       <module name="sword-pointing-to-offer" target="1.8" />
     </bytecodeTargetLevel>
   </component>

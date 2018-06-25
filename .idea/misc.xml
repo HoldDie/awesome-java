@@ -28,6 +28,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/design-pattern/pom.xml" />
         <option value="$PROJECT_DIR$/dynamic-conf/pom.xml" />
         <option value="$PROJECT_DIR$/dynamicconf/pom.xml" />
       </set>
