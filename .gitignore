@@ -3,7 +3,7 @@
 ### Example user template
 
 # IntelliJ project files
-.idea
+.idea/
 *.iml
 out
 gen### Java template
@@ -20,7 +20,6 @@ gen### Java template
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 *.zip
@@ -32,7 +31,5 @@ hs_err_pid*
 
 /idleaf/target/
 /dynamic/.mvn/
-/.idea/
-/*.iml
 /out/
 /target/

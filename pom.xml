@@ -8,6 +8,7 @@
     <modules>
         <module>dynamic</module>
         <module>sword-pointing-to-offer</module>
+        <module>java8-tutorial</module>
     </modules>
     <packaging>pom</packaging>
 
