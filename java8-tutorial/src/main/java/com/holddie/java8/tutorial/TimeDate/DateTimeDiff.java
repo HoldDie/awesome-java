@@ -1,7 +1,5 @@
 package com.holddie.java8.tutorial.TimeDate;
 
-import sun.dc.DuctusRenderingEngine;
-
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalTime;
