@@ -9,6 +9,7 @@
         <module>dynamic</module>
         <module>sword-pointing-to-offer</module>
         <module>java8-tutorial</module>
+        <module>algorithm-leetcode</module>
     </modules>
     <packaging>pom</packaging>
 
