@@ -33,4 +33,4 @@ hs_err_pid*
 /dynamic/.mvn/
 /out/
 /target/
-*.idea/*
+/.idea/
