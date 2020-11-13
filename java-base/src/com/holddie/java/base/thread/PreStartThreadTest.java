@@ -2,7 +2,7 @@ package com.holddie.java.base.thread;
 
 import com.sun.org.slf4j.internal.Logger;
 import com.sun.org.slf4j.internal.LoggerFactory;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
