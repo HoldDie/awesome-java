@@ -1,6 +1,7 @@
 package com.holddie.java.op;
 
 public class Join {
+	
 	public static void main(String[] args) {
 		Object obj = new Object();
 		MyThread myThread = new MyThread("myThread -- ");
@@ -19,6 +20,7 @@ public class Join {
 			}
 		}
 	}
+	
 }
 
 class MyThread extends Thread {

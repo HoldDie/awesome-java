@@ -1,6 +1,7 @@
 package com.holddie.java.op;
 
 public class WaitAndNotify {
+	
 	public static void main(String[] args) {
 		MethodClass methodClass = new MethodClass();
 		new Thread(() -> {
