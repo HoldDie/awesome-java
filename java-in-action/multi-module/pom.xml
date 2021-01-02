@@ -1,29 +1,25 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.holddie</groupId>
-    <artifactId>awesome-java</artifactId>
+    <groupId>com.holddie.common</groupId>
+    <artifactId>multi-module</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>java8-tutorial</module>
-        <module>understanding-jvm</module>
-        <module>java-concurrency</module>
-    </modules>
+    <name>multi-module</name>
     <packaging>pom</packaging>
-
-    <name>common-tutorial</name>
     <url>http://maven.apache.org</url>
+
+    <modules>
+        <module>multi-moduleA</module>
+        <module>multi-moduleB</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.16</version>
-        </dependency>
     </dependencies>
     <build>
         <plugins>
