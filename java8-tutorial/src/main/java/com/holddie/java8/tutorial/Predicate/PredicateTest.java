@@ -24,12 +24,28 @@ public class PredicateTest {
 
         System.out.println(callAll(books, ele -> ((String) ele).contains("三国")));
 
+        //① 使用Predicate接口实现方法,只有一个test方法，传入一个参数，返回一个bool值
+        Predicate<Integer> predicate = new Predicate<Integer>() {
+            @Override
+            public boolean test(Integer integer) {
+                if (integer > 5) {
+                    return true;
+                }
+                return false;
+            }
+        };
+        System.out.println(predicate.test(6));
+        System.out.println("********************");
+
+        //② 使用lambda表达式，
+        predicate = (t) -> t > 5;
+        System.out.println(predicate.test(1));
+        System.out.println("********************");
     }
 
     public static int callAll(Collection<String> books, Predicate predicate) {
         int total = 0;
-        for (Object obj :
-                books) {
+        for (Object obj : books) {
             if (predicate.test(obj)) {
                 total++;
             }
